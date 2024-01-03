@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>listFunctions</name>
+        <type>plugin</type>
+        <creationDate>2024-01-03</creationDate>
+        <last_update>2024-01-03</last_update>
+        <author>Gabriel Jenik</author>
+        <authorUrl>https://www.encuesta.biz</authorUrl>
+        <version>1.0</version>
+        <license>GNU General Public License version 2 or later</license>
+        <description><![CDATA[Add functions in ExpressionScript Engine to handle lists.]]></description>
+    </metadata>
+    <priority>-1</priority>
+    <compatibility>
+        <version>5.0</version>
+    </compatibility>
+
+    <updaters disabled="disabled">
+    </updaters>
+</config>
