@@ -23,7 +23,7 @@ class listFunctionHelper
      * @param int $index The index of the element to retrieve. Array indices start at 0.
      * @return mixed Returns the element at the specified index if it exists, otherwise returns null.
      */
-    function elemAtpos($csvString, $index) {
+    public static function elemAtpos($csvString, $index) {
        $array = explode(',', $csvString);
        if (!isset($array[$index])) {
            return null;
