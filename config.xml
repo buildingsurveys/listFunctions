@@ -4,10 +4,10 @@
         <name>listFunctions</name>
         <type>plugin</type>
         <creationDate>2024-01-03</creationDate>
-        <last_update>2024-01-03</last_update>
+        <last_update>2024-01-09</last_update>
         <author>Gabriel Jenik</author>
         <authorUrl>https://www.encuesta.biz</authorUrl>
-        <version>1.0</version>
+        <version>1.02</version>
         <license>GNU General Public License version 2 or later</license>
         <description><![CDATA[Add functions in ExpressionScript Engine to handle lists.]]></description>
     </metadata>

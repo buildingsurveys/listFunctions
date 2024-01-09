@@ -36,8 +36,8 @@ class listFunctions extends PluginBase
     {
         Yii::setPathOfAlias(get_class($this), dirname(__FILE__));
         $newFunctions = array(
-            'elemAtpos' => array(
-                '\listFunctions\listFunctionHelper::elemAtpos',
+            'elemAtPos' => array(
+                '\listFunctions\listFunctionHelper::elemAtPos',
                 null, // No javascript function : set as static function
                 $this->gT("Picks the element at a given index from a list (string, comma separated value, the one returned by list function). Returns null if the element doesn't exist"), // Description for admin
                 'string elemAtpos(string, index)', // Extra description
